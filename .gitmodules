@@ -1,0 +1,6 @@
+[submodule "TMI-backend"]
+	path = TMI-backend
+	url = https://github.com/AmamiSQ/TMI-backend.git
+[submodule "TMI-frontend"]
+	path = TMI-frontend
+	url = https://github.com/AmamiSQ/TMI-frontend.git
