@@ -1,4 +1,4 @@
-site_name: TMI Docs
+site_name: Too Much Information
 site_url: https://martijnlammers.github.io/
 theme:
-  name: material
+  name: dracula

@@ -11,7 +11,7 @@ python -m venv venv
 2. [Activate virtual environment.](https://docs.python.org/3/library/venv.html#how-venvs-work) 
 3. Install the dependencies for mkdocs material.
 ```bash
-pip install mkdocs-material
+pip install mkdocs-dracula-theme
 ```
 
 ### Hosting 
@@ -28,4 +28,4 @@ GitHub actions, which is responsible for deployment of the updated documentation
 
 ### References
 * [Markdown Syntax](https://www.markdownguide.org/basic-syntax/)
-* [MkDocs Material](https://squidfunk.github.io/mkdocs-material/)
+* [MkDocs Dracula](https://github.com/dracula/mkdocs)
