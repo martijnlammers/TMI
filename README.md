@@ -1,8 +1,6 @@
 ## Setup docs
-
 ### Prerequisits
 * [Python 3.12.6](https://www.python.org/downloads/)
-
 
 ### MkDocs setup
 1. Create a virtual Python environment.
@@ -23,11 +21,10 @@ mkdocs serve
 ```
 The documentation should be accessible by browsing to http://127.0.0.1:8000/.
 
-### Deploying 
-To see changes in the live github page, we need to deploy it.
-```bash
-mkdocs page --force
-```
+### Updating documentation
+The docs branch is protected. No direct commits can be pushed to it. Alike the main branch,
+the changes must go through a PR. Changes to this branch automatically trigger 
+GitHub actions, which is responsible for deployment of the updated documentation.
 
 ### References
 * [Markdown Syntax](https://www.markdownguide.org/basic-syntax/)
