@@ -2,3 +2,8 @@ site_name: Too Much Information
 site_url: https://martijnlammers.github.io/
 theme:
   name: dracula
+nav:
+  - Introduction: 'index.md'
+  - Requirements: 'requirements.md'
+  - Conventions: 'conventions.md'
+  - Installing: 'installing.md'
